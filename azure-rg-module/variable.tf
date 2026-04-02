@@ -1,7 +1,7 @@
-variable "rg_name" {
+variable "rg_neel_name" {
   type = string
 }
 
-variable "rg_location" {
+variable "rg_neel_location" {
   type = string
 }
