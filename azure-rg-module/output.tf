@@ -1,7 +1,3 @@
-variable "rg_neel_name" {
-  type = string
-}
-
-variable "rg_neel_location" {
-  type = string
+output "rg_output" {
+  value = azurerm_resource_group.rg.name
 }
